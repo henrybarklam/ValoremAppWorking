@@ -52,7 +52,6 @@
 		5D45FA4026739D6100CE3E96 = {
 			isa = PBXGroup;
 			children = (
-				5D45FA712673C51B00CE3E96 /* YourPortfolioPage */,
 				5D45FA4B26739D6200CE3E96 /* ValoremAppFull */,
 				5D45FA4A26739D6200CE3E96 /* Products */,
 			);
@@ -73,6 +72,7 @@
 				5D45FA4E26739D6200CE3E96 /* ContentView.swift */,
 				5D45FA5026739D6300CE3E96 /* Assets.xcassets */,
 				5D45FA5526739D6300CE3E96 /* Info.plist */,
+				5D45FA712673C51B00CE3E96 /* YourPortfolioPage */,
 				5D45FA7026739D8D00CE3E96 /* ValueSelectionScreen */,
 				5D45FA5226739D6300CE3E96 /* Preview Content */,
 			);
