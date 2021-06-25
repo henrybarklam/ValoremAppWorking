@@ -19,7 +19,6 @@
 		5D45FA732673C55000CE3E96 /* PortfolioPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA722673C55000CE3E96 /* PortfolioPage.swift */; };
 		5D45FA752673F34F00CE3E96 /* PortfolioLoadingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA742673F34F00CE3E96 /* PortfolioLoadingPage.swift */; };
 		5D45FA772683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA762683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift */; };
-		5D45FA79268653B800CE3E96 /* File.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5D45FA78268653B800CE3E96 /* File.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		5D45FA722673C55000CE3E96 /* PortfolioPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioPage.swift; sourceTree = "<group>"; };
 		5D45FA742673F34F00CE3E96 /* PortfolioLoadingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioLoadingPage.swift; sourceTree = "<group>"; };
 		5D45FA762683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioBuiltPageDisplay.swift; sourceTree = "<group>"; };
-		5D45FA78268653B800CE3E96 /* File.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +52,6 @@
 		5D45FA4026739D6100CE3E96 = {
 			isa = PBXGroup;
 			children = (
-				5D45FA78268653B800CE3E96 /* File.rtf */,
 				5D45FA712673C51B00CE3E96 /* YourPortfolioPage */,
 				5D45FA4B26739D6200CE3E96 /* ValoremAppFull */,
 				5D45FA4A26739D6200CE3E96 /* Products */,
@@ -171,7 +168,6 @@
 			files = (
 				5D45FA5426739D6300CE3E96 /* Preview Assets.xcassets in Resources */,
 				5D45FA5126739D6300CE3E96 /* Assets.xcassets in Resources */,
-				5D45FA79268653B800CE3E96 /* File.rtf in Resources */,
 				5D45FA6926739D7D00CE3E96 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
