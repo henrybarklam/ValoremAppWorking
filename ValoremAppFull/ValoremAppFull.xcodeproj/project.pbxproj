@@ -22,7 +22,7 @@
 		8620D5F1065C09B2D1CA2A3E /* Pods_ValoremAppFull.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1859FD41A656A5986D4BC8 /* Pods_ValoremAppFull.framework */; };
 		88887DE426867E6C00FD9B28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88887DE326867E6C00FD9B28 /* GoogleService-Info.plist */; };
 		88887DE626867EA800FD9B28 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DE526867EA800FD9B28 /* UserAuthentication.swift */; };
-		88B54C442686727A00AF9645 /* CreateAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B54C432686727A00AF9645 /* CreateAccountPage.swift */; };
+		88B54C442686727A00AF9645 /* LoginInRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B54C432686727A00AF9645 /* LoginInRegister.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +44,7 @@
 		5D45FA762683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioBuiltPageDisplay.swift; sourceTree = "<group>"; };
 		88887DE326867E6C00FD9B28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		88887DE526867EA800FD9B28 /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
-		88B54C432686727A00AF9645 /* CreateAccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPage.swift; sourceTree = "<group>"; };
+		88B54C432686727A00AF9645 /* LoginInRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInRegister.swift; sourceTree = "<group>"; };
 		BFE357E0EAF871747D1B715D /* Pods-ValoremAppFull.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValoremAppFull.release.xcconfig"; path = "Target Support Files/Pods-ValoremAppFull/Pods-ValoremAppFull.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				88887DE526867EA800FD9B28 /* UserAuthentication.swift */,
-				88B54C432686727A00AF9645 /* CreateAccountPage.swift */,
+				88B54C432686727A00AF9645 /* LoginInRegister.swift */,
 			);
 			path = LoginInRegister;
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 				5D45FA6626739D7D00CE3E96 /* Icon.swift in Sources */,
 				5D45FA772683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift in Sources */,
 				5D45FA6726739D7D00CE3E96 /* IconRow.swift in Sources */,
-				88B54C442686727A00AF9645 /* CreateAccountPage.swift in Sources */,
+				88B54C442686727A00AF9645 /* LoginInRegister.swift in Sources */,
 				88887DE626867EA800FD9B28 /* UserAuthentication.swift in Sources */,
 				5D45FA4F26739D6200CE3E96 /* ContentView.swift in Sources */,
 				5D45FA6826739D7D00CE3E96 /* IconList.swift in Sources */,
