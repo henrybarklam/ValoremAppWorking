@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D45FA4D26739D6200CE3E96 /* ValoremAppFullApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA4C26739D6200CE3E96 /* ValoremAppFullApp.swift */; };
-		5D45FA4F26739D6200CE3E96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA4E26739D6200CE3E96 /* ContentView.swift */; };
+		5D45FA4F26739D6200CE3E96 /* OldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA4E26739D6200CE3E96 /* OldContentView.swift */; };
 		5D45FA5126739D6300CE3E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D45FA5026739D6300CE3E96 /* Assets.xcassets */; };
 		5D45FA5426739D6300CE3E96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D45FA5326739D6300CE3E96 /* Preview Assets.xcassets */; };
 		5D45FA6626739D7D00CE3E96 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA5B26739D7D00CE3E96 /* Icon.swift */; };
@@ -20,9 +20,21 @@
 		5D45FA752673F34F00CE3E96 /* PortfolioLoadingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA742673F34F00CE3E96 /* PortfolioLoadingPage.swift */; };
 		5D45FA772683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA762683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift */; };
 		8620D5F1065C09B2D1CA2A3E /* Pods_ValoremAppFull.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1859FD41A656A5986D4BC8 /* Pods_ValoremAppFull.framework */; };
+		886E03E526899B8C0003D887 /* FBKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E03E126899B8B0003D887 /* FBKeys.swift */; };
+		886E03E626899B8C0003D887 /* FBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E03E226899B8B0003D887 /* FBUser.swift */; };
+		886E03E726899B8C0003D887 /* FBFireStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E03E326899B8C0003D887 /* FBFireStore.swift */; };
+		886E03E826899B8C0003D887 /* FBFireStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E03E426899B8C0003D887 /* FBFireStoreError.swift */; };
+		886E03EB26899BAD0003D887 /* FBAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E03E926899BAC0003D887 /* FBAuthError.swift */; };
+		886E03EC26899BAD0003D887 /* FBAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E03EA26899BAD0003D887 /* FBAuth.swift */; };
 		88887DE426867E6C00FD9B28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88887DE326867E6C00FD9B28 /* GoogleService-Info.plist */; };
-		88887DE626867EA800FD9B28 /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DE526867EA800FD9B28 /* UserAuthentication.swift */; };
-		88B54C442686727A00AF9645 /* LoginInRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B54C432686727A00AF9645 /* LoginInRegister.swift */; };
+		88887DE82688FB2800FD9B28 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DE72688FB2800FD9B28 /* UserInfo.swift */; };
+		88887DEA2688FDF500FD9B28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DE92688FDF500FD9B28 /* ContentView.swift */; };
+		88887DEC2688FED300FD9B28 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DEB2688FED300FD9B28 /* LoginView.swift */; };
+		88887DEE2688FF2100FD9B28 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DED2688FF2100FD9B28 /* HomeView.swift */; };
+		88887DF026891DF100FD9B28 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DEF26891DF100FD9B28 /* UserViewModel.swift */; };
+		88887DF626891EB900FD9B28 /* SignInWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DF526891EB800FD9B28 /* SignInWithEmailView.swift */; };
+		88887DF926891EBC00FD9B28 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DF726891EBC00FD9B28 /* ForgotPasswordView.swift */; };
+		88887DFA26891EBC00FD9B28 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DF826891EBC00FD9B28 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +42,7 @@
 		1C1859FD41A656A5986D4BC8 /* Pods_ValoremAppFull.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValoremAppFull.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D45FA4926739D6200CE3E96 /* ValoremAppFull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValoremAppFull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D45FA4C26739D6200CE3E96 /* ValoremAppFullApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValoremAppFullApp.swift; sourceTree = "<group>"; };
-		5D45FA4E26739D6200CE3E96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D45FA4E26739D6200CE3E96 /* OldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldContentView.swift; sourceTree = "<group>"; };
 		5D45FA5026739D6300CE3E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D45FA5326739D6300CE3E96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D45FA5526739D6300CE3E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +54,21 @@
 		5D45FA722673C55000CE3E96 /* PortfolioPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioPage.swift; sourceTree = "<group>"; };
 		5D45FA742673F34F00CE3E96 /* PortfolioLoadingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioLoadingPage.swift; sourceTree = "<group>"; };
 		5D45FA762683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioBuiltPageDisplay.swift; sourceTree = "<group>"; };
+		886E03E126899B8B0003D887 /* FBKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBKeys.swift; sourceTree = "<group>"; };
+		886E03E226899B8B0003D887 /* FBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUser.swift; sourceTree = "<group>"; };
+		886E03E326899B8C0003D887 /* FBFireStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStore.swift; sourceTree = "<group>"; };
+		886E03E426899B8C0003D887 /* FBFireStoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBFireStoreError.swift; sourceTree = "<group>"; };
+		886E03E926899BAC0003D887 /* FBAuthError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuthError.swift; sourceTree = "<group>"; };
+		886E03EA26899BAD0003D887 /* FBAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAuth.swift; sourceTree = "<group>"; };
 		88887DE326867E6C00FD9B28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		88887DE526867EA800FD9B28 /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
-		88B54C432686727A00AF9645 /* LoginInRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInRegister.swift; sourceTree = "<group>"; };
+		88887DE72688FB2800FD9B28 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		88887DE92688FDF500FD9B28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		88887DEB2688FED300FD9B28 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		88887DED2688FF2100FD9B28 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		88887DEF26891DF100FD9B28 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		88887DF526891EB800FD9B28 /* SignInWithEmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithEmailView.swift; sourceTree = "<group>"; };
+		88887DF726891EBC00FD9B28 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		88887DF826891EBC00FD9B28 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		BFE357E0EAF871747D1B715D /* Pods-ValoremAppFull.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValoremAppFull.release.xcconfig"; path = "Target Support Files/Pods-ValoremAppFull/Pods-ValoremAppFull.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,11 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				5D45FA4C26739D6200CE3E96 /* ValoremAppFullApp.swift */,
-				5D45FA4E26739D6200CE3E96 /* ContentView.swift */,
+				88887DF126891E6A00FD9B28 /* Firebase */,
+				88887DE92688FDF500FD9B28 /* ContentView.swift */,
+				5D45FA4E26739D6200CE3E96 /* OldContentView.swift */,
 				5D45FA5026739D6300CE3E96 /* Assets.xcassets */,
 				88887DE326867E6C00FD9B28 /* GoogleService-Info.plist */,
 				5D45FA5526739D6300CE3E96 /* Info.plist */,
-				88B54C4226866EB200AF9645 /* LoginInRegister */,
 				5D45FA7026739D8D00CE3E96 /* ValueSelectionScreen */,
 				5D45FA712673C51B00CE3E96 /* YourPortfolioPage */,
 				5D45FA5226739D6300CE3E96 /* Preview Content */,
@@ -133,13 +158,48 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		88B54C4226866EB200AF9645 /* LoginInRegister */ = {
+		88887DF126891E6A00FD9B28 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				88887DE526867EA800FD9B28 /* UserAuthentication.swift */,
-				88B54C432686727A00AF9645 /* LoginInRegister.swift */,
+				88887DF226891E7800FD9B28 /* Firestore */,
+				88887DF426891E8100FD9B28 /* Auth */,
+				88887DF326891E7D00FD9B28 /* Views */,
 			);
-			path = LoginInRegister;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		88887DF226891E7800FD9B28 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				886E03E326899B8C0003D887 /* FBFireStore.swift */,
+				886E03E426899B8C0003D887 /* FBFireStoreError.swift */,
+				886E03E126899B8B0003D887 /* FBKeys.swift */,
+				886E03E226899B8B0003D887 /* FBUser.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		88887DF326891E7D00FD9B28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				88887DF726891EBC00FD9B28 /* ForgotPasswordView.swift */,
+				88887DF826891EBC00FD9B28 /* SignUpView.swift */,
+				88887DF526891EB800FD9B28 /* SignInWithEmailView.swift */,
+				88887DEB2688FED300FD9B28 /* LoginView.swift */,
+				88887DED2688FF2100FD9B28 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88887DF426891E8100FD9B28 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				88887DE72688FB2800FD9B28 /* UserInfo.swift */,
+				88887DEF26891DF100FD9B28 /* UserViewModel.swift */,
+				886E03EA26899BAD0003D887 /* FBAuth.swift */,
+				886E03E926899BAC0003D887 /* FBAuthError.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		D3174ECB80CC8CE65DE2D2D8 /* Frameworks */ = {
@@ -267,14 +327,26 @@
 			files = (
 				5D45FA732673C55000CE3E96 /* PortfolioPage.swift in Sources */,
 				5D45FA6626739D7D00CE3E96 /* Icon.swift in Sources */,
+				886E03EB26899BAD0003D887 /* FBAuthError.swift in Sources */,
 				5D45FA772683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift in Sources */,
+				886E03E726899B8C0003D887 /* FBFireStore.swift in Sources */,
+				886E03E626899B8C0003D887 /* FBUser.swift in Sources */,
+				886E03EC26899BAD0003D887 /* FBAuth.swift in Sources */,
+				88887DEE2688FF2100FD9B28 /* HomeView.swift in Sources */,
 				5D45FA6726739D7D00CE3E96 /* IconRow.swift in Sources */,
-				88B54C442686727A00AF9645 /* LoginInRegister.swift in Sources */,
-				88887DE626867EA800FD9B28 /* UserAuthentication.swift in Sources */,
-				5D45FA4F26739D6200CE3E96 /* ContentView.swift in Sources */,
+				88887DFA26891EBC00FD9B28 /* SignUpView.swift in Sources */,
+				88887DE82688FB2800FD9B28 /* UserInfo.swift in Sources */,
+				5D45FA4F26739D6200CE3E96 /* OldContentView.swift in Sources */,
+				88887DF026891DF100FD9B28 /* UserViewModel.swift in Sources */,
+				88887DEC2688FED300FD9B28 /* LoginView.swift in Sources */,
 				5D45FA6826739D7D00CE3E96 /* IconList.swift in Sources */,
 				5D45FA4D26739D6200CE3E96 /* ValoremAppFullApp.swift in Sources */,
+				886E03E826899B8C0003D887 /* FBFireStoreError.swift in Sources */,
+				88887DEA2688FDF500FD9B28 /* ContentView.swift in Sources */,
+				88887DF626891EB900FD9B28 /* SignInWithEmailView.swift in Sources */,
 				5D45FA752673F34F00CE3E96 /* PortfolioLoadingPage.swift in Sources */,
+				886E03E526899B8C0003D887 /* FBKeys.swift in Sources */,
+				88887DF926891EBC00FD9B28 /* ForgotPasswordView.swift in Sources */,
 				5D45FA6A26739D7D00CE3E96 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
