@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PortfolioBuiltPageDisplay: View {
     var body: some View {
-        LinearGradient(gradient: Gradient(colors: [.black, .white]), startPoint: .top, endPoint: .bottom)
+        LinearGradient(gradient: Gradient(colors: [.white]), startPoint: .top, endPoint: .bottom)
             .ignoresSafeArea() // Ignore just for the color
             .overlay(
         VStack(alignment: .center){

@@ -37,7 +37,7 @@ extension SignInWithAppleAuthError: LocalizedError {
 enum EmailAuthError: Error {
     case incorrectPassword
     case invalidEmail
-    case accoundDoesNotExist
+    case accountDoesNotExist
     case unknownError
     case couldNotCreate
     case extraDataNotCreated
@@ -51,7 +51,7 @@ extension EmailAuthError: LocalizedError {
             return NSLocalizedString("Incorrect Password for this account", comment: "")
         case .invalidEmail:
              return NSLocalizedString("Not a valid email address.", comment: "")
-        case .accoundDoesNotExist:
+        case .accountDoesNotExist:
             return NSLocalizedString("Not a valid email address.  This account does not exist.", comment: "")
         case .unknownError:
             return NSLocalizedString("Unknown error.  Cannot log in.", comment: "")

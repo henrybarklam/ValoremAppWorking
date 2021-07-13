@@ -12,7 +12,7 @@ struct HomeView: View {
     @EnvironmentObject var userInfo: UserInfo
     var body: some View {
         NavigationView {
-            Text("Logged in as \(userInfo.user.name)")
+            Text("Logged in as \(userInfo.user.firstName) \(userInfo.user.lastName)")
             .navigationBarTitle("Firebase Login")
                 .navigationBarItems(trailing: Button("Log Out"){
                     //may want error switch handler

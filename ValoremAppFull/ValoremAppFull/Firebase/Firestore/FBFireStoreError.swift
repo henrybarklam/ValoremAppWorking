@@ -8,7 +8,7 @@
 
 import Foundation
 
-// MARK: - Firstore errors
+// MARK: - Firestore errors
 enum FireStoreError: Error {
     case noAuthDataResult
     case noCurrentUser

@@ -15,15 +15,31 @@ struct SignUpView: View {
     @State private var showError = false
     @State private var errorString = "" //localized text for error
     
+    var closedRange: ClosedRange<Date>{
+        let eighteenYears = Calendar.current.date(byAdding: .year, value: -18, to: Date())!
+        let hundredYears = Calendar.current.date(byAdding: .year, value: -100, to: Date())!
+
+        return hundredYears...eighteenYears
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
                 Group {
                     VStack(alignment: .leading) {
-                        TextField("Full Name", text: self.$user.fullname).autocapitalization(.words)
-                        if !user.validNameText.isEmpty {
-                            Text(user.validNameText).font(.caption).foregroundColor(.red)
+                        TextField("First Name", text: self.$user.firstName).autocapitalization(.words)
+                        if !user.validFirstNameText.isEmpty {
+                            Text(user.validFirstNameText).font(.caption).foregroundColor(.red)
                         }
+                    }
+                    VStack(alignment: .leading) {
+                        TextField("Last Name", text: self.$user.lastName).autocapitalization(.words)
+                        if !user.validLastNameText.isEmpty {
+                            Text(user.validLastNameText).font(.caption).foregroundColor(.red)
+                        }
+                    }
+                    VStack(alignment: .leading) {
+                        DatePicker("Date of Birth", selection: self.$user.birthDate, in: closedRange, displayedComponents: .date)
                     }
                     VStack(alignment: .leading) {
                         TextField("Email Address", text: self.$user.email).autocapitalization(.none).keyboardType(.emailAddress)
@@ -47,7 +63,7 @@ struct SignUpView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 VStack(spacing: 20 ) {
                     Button(action: {
-                        FBAuth.createUser(withEmail: self.user.email, name: self.user.fullname, password: self.user.password) { (result) in
+                        FBAuth.createUser(withEmail: self.user.email, firstName: self.user.firstName, lastName: self.user.lastName, birthDate: self.user.birthDate, password: self.user.password) { (result) in
                             switch result {
                             case .failure(let error):
                                 self.errorString = error.localizedDescription
@@ -88,3 +104,4 @@ struct SignUpView_Previews: PreviewProvider {
         SignUpView()
     }
 }
+

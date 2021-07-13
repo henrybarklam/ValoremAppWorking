@@ -42,7 +42,7 @@ struct FBAuth {
                 case 17008:
                     authError = .invalidEmail
                 case 17011:
-                    authError = .accoundDoesNotExist
+                    authError = .accountDoesNotExist
                 default:
                     authError = .unknownError
                 }
@@ -110,9 +110,12 @@ struct FBAuth {
         
         let email = signInWithAppleResult.authDataResult.user.email ?? ""
         
+        let falseDate = Date()
         
         let data = FBUser.dataDict(uid: uid,
-                                         name: name,
+                                         firstName: givenName,
+                                         lastName: familyName,
+                                         birthDate: falseDate,
                                          email: email)
         
         // Now create or merge the User in Firestore DB
@@ -166,7 +169,9 @@ struct FBAuth {
     
     // MARK: - FB Firestore User creation
     static func createUser(withEmail email:String,
-                           name: String,
+                           firstName: String,
+                           lastName: String,
+                           birthDate: Date,
                            password:String,
                            completionHandler:@escaping (Result<Bool,Error>) -> Void) {
         Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
@@ -179,7 +184,9 @@ struct FBAuth {
                 return
             }
             let data = FBUser.dataDict(uid: authResult!.user.uid,
-                                             name: name,
+                                             firstName: firstName,
+                                             lastName: lastName,
+                                             birthDate: birthDate,
                                              email: authResult!.user.email!)
             
             FBFirestore.mergeFBUser(data, uid: authResult!.user.uid) { (result) in

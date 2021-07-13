@@ -163,6 +163,8 @@
 			children = (
 				88887DF226891E7800FD9B28 /* Firestore */,
 				88887DF426891E8100FD9B28 /* Auth */,
+				88DBDDD2269E499B009B20BF /* ViewModels */,
+				88DBDDD1269E495C009B20BF /* Model */,
 				88887DF326891E7D00FD9B28 /* Views */,
 			);
 			path = Firebase;
@@ -174,7 +176,6 @@
 				886E03E326899B8C0003D887 /* FBFireStore.swift */,
 				886E03E426899B8C0003D887 /* FBFireStoreError.swift */,
 				886E03E126899B8B0003D887 /* FBKeys.swift */,
-				886E03E226899B8B0003D887 /* FBUser.swift */,
 			);
 			path = Firestore;
 			sourceTree = "<group>";
@@ -194,12 +195,27 @@
 		88887DF426891E8100FD9B28 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				88887DE72688FB2800FD9B28 /* UserInfo.swift */,
-				88887DEF26891DF100FD9B28 /* UserViewModel.swift */,
 				886E03EA26899BAD0003D887 /* FBAuth.swift */,
 				886E03E926899BAC0003D887 /* FBAuthError.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		88DBDDD1269E495C009B20BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88887DE72688FB2800FD9B28 /* UserInfo.swift */,
+				886E03E226899B8B0003D887 /* FBUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88DBDDD2269E499B009B20BF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				88887DEF26891DF100FD9B28 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		D3174ECB80CC8CE65DE2D2D8 /* Frameworks */ = {
