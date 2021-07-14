@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5D45FA4D26739D6200CE3E96 /* ValoremAppFullApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA4C26739D6200CE3E96 /* ValoremAppFullApp.swift */; };
-		5D45FA4F26739D6200CE3E96 /* OldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA4E26739D6200CE3E96 /* OldContentView.swift */; };
 		5D45FA5126739D6300CE3E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D45FA5026739D6300CE3E96 /* Assets.xcassets */; };
 		5D45FA5426739D6300CE3E96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D45FA5326739D6300CE3E96 /* Preview Assets.xcassets */; };
 		5D45FA6626739D7D00CE3E96 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA5B26739D7D00CE3E96 /* Icon.swift */; };
 		5D45FA6726739D7D00CE3E96 /* IconRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA5C26739D7D00CE3E96 /* IconRow.swift */; };
-		5D45FA6826739D7D00CE3E96 /* IconList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA5D26739D7D00CE3E96 /* IconList.swift */; };
+		5D45FA6826739D7D00CE3E96 /* IconListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA5D26739D7D00CE3E96 /* IconListView.swift */; };
 		5D45FA6926739D7D00CE3E96 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D45FA5E26739D7D00CE3E96 /* landmarkData.json */; };
 		5D45FA6A26739D7D00CE3E96 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA5F26739D7D00CE3E96 /* ModelData.swift */; };
 		5D45FA732673C55000CE3E96 /* PortfolioPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA722673C55000CE3E96 /* PortfolioPage.swift */; };
@@ -42,13 +41,12 @@
 		1C1859FD41A656A5986D4BC8 /* Pods_ValoremAppFull.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValoremAppFull.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D45FA4926739D6200CE3E96 /* ValoremAppFull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValoremAppFull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D45FA4C26739D6200CE3E96 /* ValoremAppFullApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValoremAppFullApp.swift; sourceTree = "<group>"; };
-		5D45FA4E26739D6200CE3E96 /* OldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldContentView.swift; sourceTree = "<group>"; };
 		5D45FA5026739D6300CE3E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D45FA5326739D6300CE3E96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D45FA5526739D6300CE3E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D45FA5B26739D7D00CE3E96 /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		5D45FA5C26739D7D00CE3E96 /* IconRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconRow.swift; sourceTree = "<group>"; };
-		5D45FA5D26739D7D00CE3E96 /* IconList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconList.swift; sourceTree = "<group>"; };
+		5D45FA5D26739D7D00CE3E96 /* IconListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconListView.swift; sourceTree = "<group>"; };
 		5D45FA5E26739D7D00CE3E96 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		5D45FA5F26739D7D00CE3E96 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		5D45FA722673C55000CE3E96 /* PortfolioPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioPage.swift; sourceTree = "<group>"; };
@@ -106,9 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				5D45FA4C26739D6200CE3E96 /* ValoremAppFullApp.swift */,
-				88887DF126891E6A00FD9B28 /* Firebase */,
 				88887DE92688FDF500FD9B28 /* ContentView.swift */,
-				5D45FA4E26739D6200CE3E96 /* OldContentView.swift */,
+				88887DF126891E6A00FD9B28 /* Onboarding */,
 				5D45FA5026739D6300CE3E96 /* Assets.xcassets */,
 				88887DE326867E6C00FD9B28 /* GoogleService-Info.plist */,
 				5D45FA5526739D6300CE3E96 /* Info.plist */,
@@ -130,9 +127,9 @@
 		5D45FA7026739D8D00CE3E96 /* ValueSelectionScreen */ = {
 			isa = PBXGroup;
 			children = (
-				5D45FA5B26739D7D00CE3E96 /* Icon.swift */,
-				5D45FA5D26739D7D00CE3E96 /* IconList.swift */,
-				5D45FA5C26739D7D00CE3E96 /* IconRow.swift */,
+				88DBDDD5269E5CCF009B20BF /* Model */,
+				88DBDDD4269E5CC3009B20BF /* ViewModels */,
+				88DBDDD3269E5CBC009B20BF /* Views */,
 				5D45FA5E26739D7D00CE3E96 /* landmarkData.json */,
 				5D45FA5F26739D7D00CE3E96 /* ModelData.swift */,
 			);
@@ -158,7 +155,7 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		88887DF126891E6A00FD9B28 /* Firebase */ = {
+		88887DF126891E6A00FD9B28 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
 				88887DF226891E7800FD9B28 /* Firestore */,
@@ -167,7 +164,7 @@
 				88DBDDD1269E495C009B20BF /* Model */,
 				88887DF326891E7D00FD9B28 /* Views */,
 			);
-			path = Firebase;
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		88887DF226891E7800FD9B28 /* Firestore */ = {
@@ -216,6 +213,30 @@
 				88887DEF26891DF100FD9B28 /* UserViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		88DBDDD3269E5CBC009B20BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D45FA5D26739D7D00CE3E96 /* IconListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88DBDDD4269E5CC3009B20BF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		88DBDDD5269E5CCF009B20BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D45FA5B26739D7D00CE3E96 /* Icon.swift */,
+				5D45FA5C26739D7D00CE3E96 /* IconRow.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D3174ECB80CC8CE65DE2D2D8 /* Frameworks */ = {
@@ -352,10 +373,9 @@
 				5D45FA6726739D7D00CE3E96 /* IconRow.swift in Sources */,
 				88887DFA26891EBC00FD9B28 /* SignUpView.swift in Sources */,
 				88887DE82688FB2800FD9B28 /* UserInfo.swift in Sources */,
-				5D45FA4F26739D6200CE3E96 /* OldContentView.swift in Sources */,
 				88887DF026891DF100FD9B28 /* UserViewModel.swift in Sources */,
 				88887DEC2688FED300FD9B28 /* LoginView.swift in Sources */,
-				5D45FA6826739D7D00CE3E96 /* IconList.swift in Sources */,
+				5D45FA6826739D7D00CE3E96 /* IconListView.swift in Sources */,
 				5D45FA4D26739D6200CE3E96 /* ValoremAppFullApp.swift in Sources */,
 				886E03E826899B8C0003D887 /* FBFireStoreError.swift in Sources */,
 				88887DEA2688FDF500FD9B28 /* ContentView.swift in Sources */,

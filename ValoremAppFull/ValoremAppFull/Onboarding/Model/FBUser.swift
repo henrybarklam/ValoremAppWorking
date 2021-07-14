@@ -8,7 +8,7 @@
 
 //Model for Firebase User
 import Foundation
-//import FirebaseFirestore
+import FirebaseFirestore
 
 //When account created -> capture Firebase info
 struct FBUser {
@@ -44,6 +44,7 @@ extension FBUser {
         
         // Make sure you also initialize any app specific properties if you have them
 
+//        let birthDate = birthDateTemp.dateValue()
         
         self.init(uid: uid,
                   firstName: firstName,

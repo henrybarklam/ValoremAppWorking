@@ -15,20 +15,19 @@ struct IconRow: View {
     
     var body: some View {
         HStack{
-            
-            
-            Toggle(isOn: $checkbox1){               VStack(alignment: .leading){
-                Text(icon.name)
-                    .font(.title)
-                    .bold()
+            Toggle(isOn: $checkbox1){
+                VStack(alignment: .leading){
+                    Text(icon.name)
+                        .font(.title)
+                        .bold()
 
-                Text(icon.subname)
-                    .font(.subheadline)
+                    Text(icon.subname)
+                        .font(.subheadline)
 
+                }
             }
-            }.toggleStyle(CheckboxToggleStyle(icon: icon))
+            .toggleStyle(CheckboxToggleStyle(icon: icon))
         }
-
     }
 }
 
