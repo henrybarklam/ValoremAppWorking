@@ -35,6 +35,7 @@
 		88887DF926891EBC00FD9B28 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DF726891EBC00FD9B28 /* ForgotPasswordView.swift */; };
 		88887DFA26891EBC00FD9B28 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DF826891EBC00FD9B28 /* SignUpView.swift */; };
 		88B63FC626B90BB600B374AA /* IconListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B63FC526B90BB600B374AA /* IconListViewModel.swift */; };
+		88B63FCA26B9F56600B374AA /* PortfolioTargetSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B63FC926B9F56600B374AA /* PortfolioTargetSelectionViewModel.swift */; };
 		88DBDDD9269F64DA009B20BF /* FactorListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBDDD8269F64DA009B20BF /* FactorListViewModel.swift */; };
 		88DBDDDB269F65D4009B20BF /* FactorCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBDDDA269F65D4009B20BF /* FactorCellViewModel.swift */; };
 		88DBDDE5269F6855009B20BF /* Factor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBDDE4269F6855009B20BF /* Factor.swift */; };
@@ -74,6 +75,7 @@
 		88887DF726891EBC00FD9B28 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		88887DF826891EBC00FD9B28 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		88B63FC526B90BB600B374AA /* IconListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconListViewModel.swift; sourceTree = "<group>"; };
+		88B63FC926B9F56600B374AA /* PortfolioTargetSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTargetSelectionViewModel.swift; sourceTree = "<group>"; };
 		88DBDDD8269F64DA009B20BF /* FactorListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorListViewModel.swift; sourceTree = "<group>"; };
 		88DBDDDA269F65D4009B20BF /* FactorCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorCellViewModel.swift; sourceTree = "<group>"; };
 		88DBDDE4269F6855009B20BF /* Factor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factor.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			children = (
 				5D45FA4C26739D6200CE3E96 /* ValoremAppFullApp.swift */,
 				88887DE92688FDF500FD9B28 /* ContentView.swift */,
+				88887DF226891E7800FD9B28 /* Firestore */,
 				88887DF126891E6A00FD9B28 /* Onboarding */,
 				5D45FA5026739D6300CE3E96 /* Assets.xcassets */,
 				88887DE326867E6C00FD9B28 /* GoogleService-Info.plist */,
@@ -170,7 +173,6 @@
 		88887DF126891E6A00FD9B28 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				88887DF226891E7800FD9B28 /* Firestore */,
 				88887DF426891E8100FD9B28 /* Auth */,
 				88DBDDD2269E499B009B20BF /* ViewModels */,
 				88DBDDD1269E495C009B20BF /* Model */,
@@ -221,9 +223,26 @@
 		88B63FC426B9020600B374AA /* PortfolioTargetSelection */ = {
 			isa = PBXGroup;
 			children = (
-				5D45FA722673C55000CE3E96 /* PortfolioTargetSelectionView.swift */,
+				88B63FC826B9D24D00B374AA /* Views */,
+				88B63FC726B9D22700B374AA /* ViewModels */,
 			);
 			path = PortfolioTargetSelection;
+			sourceTree = "<group>";
+		};
+		88B63FC726B9D22700B374AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				88B63FC926B9F56600B374AA /* PortfolioTargetSelectionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		88B63FC826B9D24D00B374AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D45FA722673C55000CE3E96 /* PortfolioTargetSelectionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		88DBDDD1269E495C009B20BF /* Model */ = {
@@ -431,6 +450,7 @@
 				5D45FA6726739D7D00CE3E96 /* IconRowView.swift in Sources */,
 				88887DFA26891EBC00FD9B28 /* SignUpView.swift in Sources */,
 				88887DE82688FB2800FD9B28 /* UserInfo.swift in Sources */,
+				88B63FCA26B9F56600B374AA /* PortfolioTargetSelectionViewModel.swift in Sources */,
 				88DBDDD9269F64DA009B20BF /* FactorListViewModel.swift in Sources */,
 				88887DF026891DF100FD9B28 /* UserViewModel.swift in Sources */,
 				88DBDDEA269F74DD009B20BF /* FactorRepository.swift in Sources */,
