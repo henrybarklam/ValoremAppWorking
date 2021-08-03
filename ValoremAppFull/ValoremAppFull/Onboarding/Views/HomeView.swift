@@ -35,7 +35,7 @@ struct HomeView: View {
                 
                 
                 VStack {
-                    NavigationLink(destination: IconList()            .navigationBarBackButtonHidden(true)
+                    NavigationLink(destination: IconListView()            .navigationBarBackButtonHidden(true)
                         .navigationBarHidden(true)){
                         
                     Text("\(userInfo.user.firstName) \(userInfo.user.lastName), welcome to Valorem.")

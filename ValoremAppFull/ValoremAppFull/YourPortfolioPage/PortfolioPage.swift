@@ -21,7 +21,7 @@ struct PortfolioPage: View {
                 .padding(.leading, 20)
             
             VStack {
-                Text("Consistenct of Impact")
+                Text("Consistent Impact")
                     .fontWeight(.medium)
                 .padding()
 
@@ -32,7 +32,7 @@ struct PortfolioPage: View {
                 .padding()
             }
             VStack {
-                Text("Consistenct of Return")
+                Text("Consistent Return")
                     .fontWeight(.medium)
 
                 HStack {

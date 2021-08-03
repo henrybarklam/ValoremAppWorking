@@ -1,7 +1,7 @@
 //
 //  UserViewModel.swift
 //
-//  Created by Marcus Deans on
+//  Created by Marcus Deans on 6/28/21.
 //
 
 import Foundation

@@ -2,8 +2,7 @@
 //  FBFireStoreError.swift
 //  Signin With Apple
 //
-//  Created by Stewart Lynch on 2020-03-21.
-//  Copyright © 2020 CreaTECH Solutions. All rights reserved.
+//  Created by Marcus Deans on 6/28/21.
 //
 
 import Foundation

@@ -17,7 +17,7 @@ struct Icon: Hashable, Codable , Identifiable{
     private var imageName: String
     var image : Image{
         Image(imageName)
-}
+    }
     var iconimageunchecked: String
     var iconimagechecked: String
     
