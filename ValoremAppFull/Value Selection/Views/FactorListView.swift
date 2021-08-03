@@ -27,7 +27,7 @@ struct FactorListView: View {
                 List(factorListVM.factorCellViewModels){ factorCellVM in
                     FactorCell(factorCellVM: factorCellVM)
                 }
-                NavigationLink(destination: PortfolioPage()) {
+                NavigationLink(destination: PortfolioTargetSelectionView()) {
                     Text("Continue")
                         .fontWeight(.bold)
                         .padding()

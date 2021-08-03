@@ -8,7 +8,7 @@
 import SwiftUI
 import Firebase
 
-struct HomeView: View {
+struct WelcomeView: View {
     @EnvironmentObject var userInfo: UserInfo
     
     @State var firstView = true
@@ -44,7 +44,7 @@ struct HomeView: View {
                         .padding(30)
                         .gradientForeground(colors: [.white, .white])
                         .padding(.bottom, 100)
-                        .opacity(0.4)
+                        .opacity(0.7)
                         .navigationBarTitle("Welcome")
                         .navigationBarItems(trailing: Button("Log Out"){
                             FBAuth.logout{(result) in
@@ -135,6 +135,6 @@ extension View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        WelcomeView()
     }
 }

@@ -17,6 +17,9 @@ struct SignInWithEmailView: View {
     
     var body: some View {
         VStack {
+            Text("Welcome to Valorem")
+                .font(.title)
+                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
             TextField("Email Address",
                       text: self.$user.email)
                 .autocapitalization(.none)
@@ -46,8 +49,8 @@ struct SignInWithEmailView: View {
                     Text("Login")
                         .padding(.vertical, 15)
                         .frame(width: 200)
-                        .background(Color.green)
-                        .cornerRadius(8)
+                        .background(Color.blue)
+                        .cornerRadius(18)
                         .foregroundColor(.white)
                         .opacity(user.isLogInComplete ? 1 : 0.75)
                 }.disabled(!user.isLogInComplete)
@@ -58,8 +61,8 @@ struct SignInWithEmailView: View {
                     Text("Sign Up")
                         .padding(.vertical, 15)
                         .frame(width: 200)
-                        .background(Color.blue)
-                        .cornerRadius(8)
+                        .background(Color.purple)
+                        .cornerRadius(18)
                         .foregroundColor(.white)
                 }
             }
@@ -77,7 +80,6 @@ struct SignInWithEmailView: View {
         .padding(.top, 100)
         .frame(width: 300)
         .textFieldStyle(RoundedBorderTextFieldStyle())
-        
     }
 }
 

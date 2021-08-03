@@ -9,13 +9,15 @@ import SwiftUI
 
 struct IconListView: View {
     @EnvironmentObject var userInfo: UserInfo
+    //@State var valueCount = 0
+    @State var valueList: IconListViewModel = IconListViewModel() //handle verification
+//    @ObservedObject var iconListVM = FactorListViewModel()
 
     init(){
         UITableView.appearance().backgroundColor = .clear
         UITableViewCell().backgroundColor = .clear
     }
     
-    @ObservedObject var iconListVM = FactorListViewModel()
     var body: some View {
 //        LinearGradient(gradient: Gradient(colors: [Color.green, Color.white]), startPoint: .top, endPoint: .bottom)
 //            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
@@ -31,30 +33,41 @@ struct IconListView: View {
                     .frame(width: 288, height: 61, alignment: .center)
 //                    .padding(.horizontal, 30)
                     .navigationBarHidden(true)
-                Text("Choose up to three")
+                Text("Choose your top three")
                     .foregroundColor(.gray)
                     .padding(.leading, 10)
                 List(icons){ icon in
-                    IconRowView(icon: icon)
+                    IconRowView(icon: icon, valueCount: $valueList.valueCount)
 
                 }
-                .listRowInsets(EdgeInsets())
-
+                    .listRowInsets(EdgeInsets())
                 
-                NavigationLink(destination: PortfolioPage()) {
+//                self.$valueList.valueCount = valueCount
+//                Text("Number of values is: \(self.valueCount)")
+                
+                if !valueList.checkThreeValues(_field: valueList.valueCount){
+                    Text(valueList.validValueCount)
+//                        .font(.caption)
+                        .fontWeight(.bold)
+                        .foregroundColor(.red)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                }
+                
+                NavigationLink(destination: PortfolioTargetSelectionView()) {
 
                     Text("Continue")
-                        .fontWeight(.bold)
+                        .fontWeight(.semibold)
                         .padding()
                         //            }
                         .padding(.horizontal, 70)
                         .background(Color.blue)
                         .foregroundColor(.white)
                         .border(Color.blue, width: 5)
-                        .cornerRadius(10)
+                        .cornerRadius(18)
                         .padding(.bottom, 0)
                         .padding(.horizontal, 80)
-                }
+                }.disabled(!valueList.selectionComplete)
+
                 //FIGURE THIS OUT
                 //            NavigationView{
                 //                Text("Continue")

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PortfolioPage: View {
+struct PortfolioTargetSelectionView: View {
     @State private var risk : Double = 0.0
     @State private var impact: Double = 0.0
 
@@ -71,7 +71,7 @@ struct PortfolioPage: View {
 
 struct PortfolioPage_Previews: PreviewProvider {
     static var previews: some View {
-        PortfolioPage()
+        PortfolioTargetSelectionView()
     }
 }
 

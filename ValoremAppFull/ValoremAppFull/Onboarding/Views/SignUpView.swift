@@ -75,11 +75,11 @@ struct SignUpView: View {
                         }
                         
                     }) {
-                        Text("Register")
+                        Text("Sign Up")
                             .frame(width: 200)
                             .padding(.vertical, 15)
-                            .background(Color.green)
-                            .cornerRadius(8)
+                            .background(Color.blue)
+                            .cornerRadius(18)
                             .foregroundColor(.white)
                             .opacity(user.isSignInComplete ? 1 : 0.75)
                     }

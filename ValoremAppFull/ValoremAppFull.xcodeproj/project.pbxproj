@@ -15,7 +15,7 @@
 		5D45FA6826739D7D00CE3E96 /* IconListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA5D26739D7D00CE3E96 /* IconListView.swift */; };
 		5D45FA6926739D7D00CE3E96 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D45FA5E26739D7D00CE3E96 /* landmarkData.json */; };
 		5D45FA6A26739D7D00CE3E96 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA5F26739D7D00CE3E96 /* ModelData.swift */; };
-		5D45FA732673C55000CE3E96 /* PortfolioPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA722673C55000CE3E96 /* PortfolioPage.swift */; };
+		5D45FA732673C55000CE3E96 /* PortfolioTargetSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA722673C55000CE3E96 /* PortfolioTargetSelectionView.swift */; };
 		5D45FA752673F34F00CE3E96 /* PortfolioLoadingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA742673F34F00CE3E96 /* PortfolioLoadingPage.swift */; };
 		5D45FA772683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D45FA762683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift */; };
 		8620D5F1065C09B2D1CA2A3E /* Pods_ValoremAppFull.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1859FD41A656A5986D4BC8 /* Pods_ValoremAppFull.framework */; };
@@ -29,11 +29,12 @@
 		88887DE82688FB2800FD9B28 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DE72688FB2800FD9B28 /* UserInfo.swift */; };
 		88887DEA2688FDF500FD9B28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DE92688FDF500FD9B28 /* ContentView.swift */; };
 		88887DEC2688FED300FD9B28 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DEB2688FED300FD9B28 /* LoginView.swift */; };
-		88887DEE2688FF2100FD9B28 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DED2688FF2100FD9B28 /* HomeView.swift */; };
+		88887DEE2688FF2100FD9B28 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DED2688FF2100FD9B28 /* WelcomeView.swift */; };
 		88887DF026891DF100FD9B28 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DEF26891DF100FD9B28 /* UserViewModel.swift */; };
 		88887DF626891EB900FD9B28 /* SignInWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DF526891EB800FD9B28 /* SignInWithEmailView.swift */; };
 		88887DF926891EBC00FD9B28 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DF726891EBC00FD9B28 /* ForgotPasswordView.swift */; };
 		88887DFA26891EBC00FD9B28 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88887DF826891EBC00FD9B28 /* SignUpView.swift */; };
+		88B63FC626B90BB600B374AA /* IconListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B63FC526B90BB600B374AA /* IconListViewModel.swift */; };
 		88DBDDD9269F64DA009B20BF /* FactorListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBDDD8269F64DA009B20BF /* FactorListViewModel.swift */; };
 		88DBDDDB269F65D4009B20BF /* FactorCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBDDDA269F65D4009B20BF /* FactorCellViewModel.swift */; };
 		88DBDDE5269F6855009B20BF /* Factor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DBDDE4269F6855009B20BF /* Factor.swift */; };
@@ -54,7 +55,7 @@
 		5D45FA5D26739D7D00CE3E96 /* IconListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconListView.swift; sourceTree = "<group>"; };
 		5D45FA5E26739D7D00CE3E96 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		5D45FA5F26739D7D00CE3E96 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		5D45FA722673C55000CE3E96 /* PortfolioPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioPage.swift; sourceTree = "<group>"; };
+		5D45FA722673C55000CE3E96 /* PortfolioTargetSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTargetSelectionView.swift; sourceTree = "<group>"; };
 		5D45FA742673F34F00CE3E96 /* PortfolioLoadingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioLoadingPage.swift; sourceTree = "<group>"; };
 		5D45FA762683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioBuiltPageDisplay.swift; sourceTree = "<group>"; };
 		886E03E126899B8B0003D887 /* FBKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBKeys.swift; sourceTree = "<group>"; };
@@ -67,11 +68,12 @@
 		88887DE72688FB2800FD9B28 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		88887DE92688FDF500FD9B28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88887DEB2688FED300FD9B28 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		88887DED2688FF2100FD9B28 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		88887DED2688FF2100FD9B28 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		88887DEF26891DF100FD9B28 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		88887DF526891EB800FD9B28 /* SignInWithEmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithEmailView.swift; sourceTree = "<group>"; };
 		88887DF726891EBC00FD9B28 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		88887DF826891EBC00FD9B28 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		88B63FC526B90BB600B374AA /* IconListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconListViewModel.swift; sourceTree = "<group>"; };
 		88DBDDD8269F64DA009B20BF /* FactorListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorListViewModel.swift; sourceTree = "<group>"; };
 		88DBDDDA269F65D4009B20BF /* FactorCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorCellViewModel.swift; sourceTree = "<group>"; };
 		88DBDDE4269F6855009B20BF /* Factor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factor.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				88887DE326867E6C00FD9B28 /* GoogleService-Info.plist */,
 				5D45FA5526739D6300CE3E96 /* Info.plist */,
 				5D45FA7026739D8D00CE3E96 /* ValueSelectionScreen */,
+				88B63FC426B9020600B374AA /* PortfolioTargetSelection */,
 				5D45FA712673C51B00CE3E96 /* YourPortfolioPage */,
 				5D45FA5226739D6300CE3E96 /* Preview Content */,
 			);
@@ -138,10 +141,10 @@
 		5D45FA7026739D8D00CE3E96 /* ValueSelectionScreen */ = {
 			isa = PBXGroup;
 			children = (
+				88B63FC326B901E600B374AA /* ViewModel */,
 				88DBDDD5269E5CCF009B20BF /* Model */,
 				88DBDDD3269E5CBC009B20BF /* Views */,
 				5D45FA5E26739D7D00CE3E96 /* landmarkData.json */,
-				5D45FA5F26739D7D00CE3E96 /* ModelData.swift */,
 			);
 			path = ValueSelectionScreen;
 			sourceTree = "<group>";
@@ -149,7 +152,6 @@
 		5D45FA712673C51B00CE3E96 /* YourPortfolioPage */ = {
 			isa = PBXGroup;
 			children = (
-				5D45FA722673C55000CE3E96 /* PortfolioPage.swift */,
 				5D45FA742673F34F00CE3E96 /* PortfolioLoadingPage.swift */,
 				5D45FA762683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift */,
 			);
@@ -194,7 +196,7 @@
 				88887DF826891EBC00FD9B28 /* SignUpView.swift */,
 				88887DF526891EB800FD9B28 /* SignInWithEmailView.swift */,
 				88887DEB2688FED300FD9B28 /* LoginView.swift */,
-				88887DED2688FF2100FD9B28 /* HomeView.swift */,
+				88887DED2688FF2100FD9B28 /* WelcomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +208,22 @@
 				886E03E926899BAC0003D887 /* FBAuthError.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		88B63FC326B901E600B374AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				88B63FC526B90BB600B374AA /* IconListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		88B63FC426B9020600B374AA /* PortfolioTargetSelection */ = {
+			isa = PBXGroup;
+			children = (
+				5D45FA722673C55000CE3E96 /* PortfolioTargetSelectionView.swift */,
+			);
+			path = PortfolioTargetSelection;
 			sourceTree = "<group>";
 		};
 		88DBDDD1269E495C009B20BF /* Model */ = {
@@ -228,6 +246,7 @@
 		88DBDDD3269E5CBC009B20BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5D45FA5F26739D7D00CE3E96 /* ModelData.swift */,
 				5D45FA5C26739D7D00CE3E96 /* IconRowView.swift */,
 				5D45FA5D26739D7D00CE3E96 /* IconListView.swift */,
 			);
@@ -401,14 +420,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D45FA732673C55000CE3E96 /* PortfolioPage.swift in Sources */,
+				5D45FA732673C55000CE3E96 /* PortfolioTargetSelectionView.swift in Sources */,
 				5D45FA6626739D7D00CE3E96 /* Icon.swift in Sources */,
 				886E03EB26899BAD0003D887 /* FBAuthError.swift in Sources */,
 				5D45FA772683A8C300CE3E96 /* PortfolioBuiltPageDisplay.swift in Sources */,
 				886E03E726899B8C0003D887 /* FBFireStore.swift in Sources */,
 				886E03E626899B8C0003D887 /* FBUser.swift in Sources */,
 				886E03EC26899BAD0003D887 /* FBAuth.swift in Sources */,
-				88887DEE2688FF2100FD9B28 /* HomeView.swift in Sources */,
+				88887DEE2688FF2100FD9B28 /* WelcomeView.swift in Sources */,
 				5D45FA6726739D7D00CE3E96 /* IconRowView.swift in Sources */,
 				88887DFA26891EBC00FD9B28 /* SignUpView.swift in Sources */,
 				88887DE82688FB2800FD9B28 /* UserInfo.swift in Sources */,
@@ -416,6 +435,7 @@
 				88887DF026891DF100FD9B28 /* UserViewModel.swift in Sources */,
 				88DBDDEA269F74DD009B20BF /* FactorRepository.swift in Sources */,
 				88887DEC2688FED300FD9B28 /* LoginView.swift in Sources */,
+				88B63FC626B90BB600B374AA /* IconListViewModel.swift in Sources */,
 				88DBDDDB269F65D4009B20BF /* FactorCellViewModel.swift in Sources */,
 				5D45FA6826739D7D00CE3E96 /* IconListView.swift in Sources */,
 				5D45FA4D26739D6200CE3E96 /* ValoremAppFullApp.swift in Sources */,
